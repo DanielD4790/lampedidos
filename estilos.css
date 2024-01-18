@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración predeterminada (modo claro) */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container2 {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color:#080707;
+}
+
+hr {
+        border-color: #6eb371;
+    }
+
+form {
+    max-width: 600px;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .container {
+        background-color: #444;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+.container2 {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #444;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+    h1 {
+        text-align: center; /* Centra el texto */
+        color: #fff;
+    }
+
+    hr {
+        border-color: #6eb371;
+    }
+
+    label {
+        color: #fff;
+    }
+
+    input,
+    select {
+        background-color: #555;
+        color: #fff;
+    }
+
+    input[type="submit"] {
+        background-color: #6eb371;
+    }
+
+    table, th, td {
+        border: 1px solid #6eb371;
+        color: #fff;
+    }
+
+    th {
+        background-color: #007BFF;
+    }
+
+    a {
+        color: #66c2ff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+
